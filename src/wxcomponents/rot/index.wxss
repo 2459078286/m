@@ -1,0 +1,79 @@
+/**index.wxss**/
+.contentWarp{
+  position: absolute;
+  width: 602rpx;
+  height: 729rpx;
+  top: 123rpx;
+  left: 50%;
+  margin-left: -301rpx;
+  overflow: hidden;
+  /* bottom: 0;
+  right: 0; */
+  /* margin: auto; */
+  /* background-color: #d1e3f1; */
+}
+.touchWrap{
+    transform-origin: center;
+    position: absolute;
+    z-index: 100;
+}
+
+.imgWrap {
+    box-sizing: border-box;
+    width: 100%;
+    transform-origin: center;
+    float: left;
+    /* border: 5rpx transparent dashed; */
+    border:2px dashed #fff!important;
+   
+}
+.imgWrap image {
+    float: left;
+}
+.touchActive .x {
+    display: block;
+}
+
+.touchActive .o {
+    display: block;
+}
+
+.x {
+    position: absolute;
+    top: -25rpx;
+    left: -25rpx;
+    z-index: 500;
+    display: none;
+    width: 50rpx;
+    height: 50rpx;
+    overflow: hidden;
+    font-weight: bold;
+    color: #d1e3f1;
+}
+.o {
+    position: absolute;
+    bottom: -25rpx;
+    right: -25rpx;
+    width: 50rpx;
+    height: 50rpx;
+    text-align: center;
+    /* display: none; */
+    overflow: hidden;
+    font-weight: bold;
+    color: #d1e3f1;
+}
+.active {
+    background-color: rgb(78, 114, 151);
+}
+
+.active view {
+    border: none;
+}
+.touchActive {
+    /* border: 4rpx #fff dashed; */
+    z-index: 400;
+}
+.nimei{
+    width: 200rpx!important;
+    height:238rpx!important;
+}

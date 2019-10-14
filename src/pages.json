@@ -1,0 +1,251 @@
+{
+    "pages": [
+        {
+            "path": "pages/wait/index",
+            "style": {
+                "navigationBarTitleText": "泰格豪雅"
+            }
+        },
+        {
+            "path": "pages/dna_test/index",
+            "style": {
+                "navigationBarTitleText": "泰格豪雅"
+            }
+        },
+        {
+            "path": "pages/mon_index/index",
+            "style": {
+                "navigationBarTitleText": "泰格豪雅"
+            }
+        },
+        
+       
+        {
+            "path": "pages/jin_index/index",
+            "style": {
+                "navigationBarTitleText": "泰格豪雅"
+            }
+        },
+        
+        {
+            "path": "pages/login/phone",
+            "style": {
+                "navigationBarTitleText": "泰格豪雅"
+            }
+        },
+       
+        {
+            "path": "pages/error/getlocation",
+            "style": {
+                "navigationBarTitleText": "泰格豪雅"
+            }
+        },
+       
+        {
+            "path": "pages/error/err2",
+            "style": {
+                "navigationBarTitleText": "泰格豪雅"
+            }
+        },
+        {
+            "path": "pages/follow/index",
+            "style": {
+                "navigationBarTitleText": "泰格豪雅"
+            }
+        },
+     
+        
+        {
+            "path": "pages/dna_test/sign",
+            "style": {
+                "navigationBarTitleText": "泰格豪雅"
+            }
+        },
+        
+        {
+            "path": "pages/dna_test/tuan_zy",
+            "style": {
+                "navigationBarTitleText": "泰格豪雅"
+            }
+        },
+        
+        {
+            "path": "pages/dna_test/music",
+            "style": {
+                "navigationBarTitleText": "泰格豪雅"
+            }
+        },
+        
+        {
+            "path": "pages/dna_test/sd",
+            "style": {
+                "navigationBarTitleText": "泰格豪雅"
+            }
+        },
+        {
+            "path": "pages/dna_test/sd2",
+            "style": {
+                "navigationBarTitleText": "泰格豪雅",
+                "usingComponents": {
+                    "rot": "/wxcomponents/rot/index",
+                    "canvasdrawer": "/wxcomponents/canvasdrawer/canvasdrawer"
+                },
+                "disableScroll":true
+            }
+        },
+        {
+            "path": "pages/dna_test/share",
+            "style": {
+                "navigationBarTitleText": "泰格豪雅",
+                "usingComponents": {
+                    "canvasdrawer": "/wxcomponents/canvasdrawer/canvasdrawer"
+                }
+            }
+        },
+    
+        {
+            "path": "pages/dna_test/she_zy",
+            "style": {
+                "navigationBarTitleText": "泰格豪雅"
+            }
+        },
+        {
+            "path": "pages/dna_test/che_zy",
+            "style": {
+                "navigationBarTitleText": "泰格豪雅"
+            }
+        },
+        {
+            "path": "pages/dna_test/data",
+            "style": {
+                "navigationBarTitleText": "泰格豪雅",
+                "usingComponents": {
+                    "van-area": "/wxcomponents/vant/area/index"
+                }
+            }
+        },
+        {
+            "path": "pages/dna_test/xuanb",
+            "style": {
+                "navigationBarTitleText": "泰格豪雅"
+            }
+        },
+        {
+            "path": "pages/dna_test/sd3",
+            "style": {
+                "navigationBarTitleText": "泰格豪雅"
+            }
+        },
+        {
+            "path": "pages/yuyue/tianxie",
+            "style": {
+                "navigationBarTitleText": "泰格豪雅",
+                "usingComponents": {
+                    "van-area": "/wxcomponents/vant/area/index"
+                }
+            }
+        },
+        {
+            "path": "pages/yuyue/pinjian",
+            "style": {
+                "navigationBarTitleText": "泰格豪雅",
+                "usingComponents": {
+                    "van-picker": "/wxcomponents/vant/picker/index"
+                }
+            }
+        },
+        {
+            "path": "pages/yuyue/mng",
+            "style": {
+                "navigationBarTitleText": "泰格豪雅"
+            }
+        },
+        {
+            "path": "pages/yuyue/canyu",
+            "style": {
+                "navigationBarTitleText": "泰格豪雅"
+            }
+        }
+    ],
+
+    "globalStyle": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "uni-app",
+      
+        "backgroundColor": "#F8F8F8"
+    },
+   
+    "condition": {
+        "current": 0,
+        "list": [{
+                "name": "首页",
+                "path": "pages/mon_index/index"
+            },
+            {
+                "name": "签名",
+                "path": "pages/dna_test/sign"
+            },
+            {
+                "name": "图案左右",
+                "path": "pages/dna_test/tuan_zy"
+            },
+            {
+                "name": "音乐",
+                "path": "pages/dna_test/music"
+            },
+            {
+                "name": "腕表试戴",
+                "path": "pages/dna_test/sd"
+            },
+            {
+                "name": "腕表试戴2",
+                "path": "pages/dna_test/sd2"
+            },
+            {
+                "name": "分享",
+                "path": "pages/dna_test/share"
+            },
+           
+            {
+                "name": "授权",
+                "path": "pages/dna_test/index"
+            },
+            {
+                "name": "生活方式",
+                "path": "pages/dna_test/she_zy"
+            },
+            {
+                "name": "车型",
+                "path": "pages/dna_test/che_zy"
+            },
+            {
+                "name": "数据监测",
+                "path": "pages/dna_test/data"
+            },
+            {
+                "name": "选表",
+                "path": "pages/dna_test/xuanb"
+            },
+            {
+                "name": "生成的",
+                "path": "pages/dna_test/sd3"
+            },
+            {
+                "name": "预约填写",
+                "path": "pages/yuyue/tianxie"
+            },
+            {
+                "name": "品鉴",
+                "path": "pages/yuyue/pinjian"
+            },
+            {
+                "name": "摩纳哥",
+                "path": "pages/yuyue/mng"
+            },
+            {
+                "name": "参与",
+                "path": "pages/yuyue/canyu"
+            }
+        ]
+    }
+}
